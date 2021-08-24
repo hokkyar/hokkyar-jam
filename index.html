@@ -16,7 +16,7 @@
         }
         main{
             margin: 50px auto;
-            width: 525px;
+            max-width: 500px;
             text-align: center;
             background-color: rgb(50, 192, 173);
             border-radius: 5px;
@@ -31,7 +31,7 @@
         #jam-digital{
             margin-top: -10px;
             color: rgb(45, 0, 151);
-            font-size: 100px;
+            font-size: 70px;
         }
         footer{
             font-family: Arial, Helvetica, sans-serif;
@@ -49,6 +49,14 @@
         }
         footer a:hover{
             color: rgb(216, 125, 21);
+        }
+        @media(min-width: 550px){
+            #jam-digital{
+                font-size: 100px;
+            }
+            main{
+                max-width: 525px;
+            }
         }
     </style>
 </head>
